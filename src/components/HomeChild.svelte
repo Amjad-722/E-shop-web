@@ -30,7 +30,7 @@
   <!-- Loop through the items array to create multiple sections -->
   <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
     {#each items as item}
-      <div class="h-[200px] flex items-center space-x-4 p-4 border rounded-lg shadow-sm">
+      <div class="h-[200px] flex items-center space-x-4 p-4  rounded-lg shadow-sm">
         <!-- FontAwesome Icon inside a circular background -->
         <div class="flex-shrink-0">
           <div class="h-16 w-16 rounded-full bg-green-100 flex items-center justify-center">

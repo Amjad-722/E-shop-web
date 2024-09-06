@@ -1,5 +1,6 @@
 <script>
-  import Home from "../components/home/Home.svelte";
+  import Card from "../components/card/Card.svelte";
+import Home from "../components/home/Home.svelte";
   import HomeChild from "../components/HomeChild.svelte";
 import Navbar from "../components/Navbar/Navbar.svelte";
 
@@ -11,6 +12,9 @@ import Navbar from "../components/Navbar/Navbar.svelte";
   </section>
   <section>
     <HomeChild/>
+  </section>
+  <section>
+    <Card/>
   </section>
     
 
