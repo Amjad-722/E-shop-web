@@ -1,6 +1,15 @@
 <script>
+  import Home from "../components/Home.svelte";
+import Navbar from "../components/Navbar.svelte";
+
 
 </script>
 <main>
-  <h1 class="flex items-center font-extrabold text-6xl justify-center  ">helllo</h1>
+  <section class="h-screen max-h-full bg-cover  bg-center" style="background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230613/pngtree-some-green-plants-and-leaves-against-a-dark-background-image_2899643.jpg');">
+    <Navbar />
+    <Home />
+  </section>
+  
+  
+  
 </main>
