@@ -34,12 +34,60 @@
         <div class="flex flex-col md:flex-row md:mx-6">
           <a
             class="my-1 text-lg text-white font-medium hover:text-indigo-500 md:mx-4 md:my-0"
-            href="#">Home</a
+            href="#"
+            >Home</a
           >
-          <a
-            class="my-1 text-lg text-white font-medium hover:text-indigo-500 md:mx-4 md:my-0"
-            href="#">Shop</a
-          >
+      
+          <!-- Shop link with dropdown and down arrow -->
+          <div class="relative group">
+            <a
+              class="my-1 text-lg text-white font-medium hover:text-indigo-500 md:mx-4 md:my-0 cursor-pointer flex items-center"
+              href="#">Shop
+              <!-- Down Arrow Icon -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 ml-1"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </a>
+      
+            <!-- Dropdown menu -->
+            <div
+              class="absolute hidden group-hover:block bg-white shadow-md rounded-lg mt-2 w-40 z-10"
+            >
+              <!-- Plants Categories -->
+              <a
+                href="#"
+                class="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white rounded-t-lg"
+                >Cactus</a
+              >
+              <a
+                href="#"
+                class="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white"
+                >Succulents</a
+              >
+              <a
+                href="#"
+                class="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white"
+                >Flowering Plants</a
+              >
+              <a
+                href="#"
+                class="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white rounded-b-lg"
+                >Tropical Plants</a
+              >
+            </div>
+          </div>
+      
           <a
             class="my-1 text-lg text-white font-medium hover:text-indigo-500 md:mx-4 md:my-0"
             href="#">Contact</a
@@ -49,6 +97,9 @@
             href="#">About</a
           >
         </div>
+      </div>
+      
+      <div>
 
         <div class="flex justify-center md:block">
           <a class="relative text-gray-700 hover:text-gray-600" href="#">
