@@ -1,7 +1,7 @@
 <script>
   import Home from "../components/home/Home.svelte";
+  import HomeChild from "../components/HomeChild.svelte";
 import Navbar from "../components/Navbar/Navbar.svelte";
-
 
 </script>
 <main>
@@ -9,6 +9,12 @@ import Navbar from "../components/Navbar/Navbar.svelte";
     <Navbar />
     <Home/>
   </section>
+  <section>
+    <HomeChild/>
+  </section>
+    
+
+  
   
   
   
