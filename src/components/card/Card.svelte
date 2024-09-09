@@ -23,13 +23,13 @@
     ];
   </script>
   
-  <!-- Loop through the cards array to create multiple sections -->
-  <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-gray-300 gap-4">
+
+  <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-6 gap-4">
     {#each cards as card}
-      <div class="h-[300px] flex flex-col items-center space-y-4 p-4 rounded-lg shadow-sm">
+      <div class="h-[300px] flex flex-col items-center space-y-4 p-12 rounded-lg shadow-sm">
         <!-- Image with hover effect -->
         <div class="flex-shrink-0">
-          <div class="relative h-80 w-80 overflow-hidden rounded-full">
+          <div class="relative h-72 w-72 overflow-hidden rounded-full">
             <img src={card.image} alt="Card Image" class="h-full w-full object-cover transition-transform duration-300 ease-in-out hover:scale-110" />
           </div>
         </div>
