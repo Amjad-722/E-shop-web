@@ -27,6 +27,9 @@
         price: "$60"
       }
     ];
+
+
+    
   
     const getStars = (rating) => {
       const fullStars = Math.floor(rating);
@@ -35,7 +38,7 @@
     };
   </script>
   
-  <section class="mt-20 bg-gray-100 p-8">
+  <section class="mt-20 bg-gray-100 p-8 ">
     <h1 class="text-5xl font-bold text-left mb-4">{title}</h1>
     <p class="text-lg pt-4 text-left mb-8">{description}</p>
     <div class="grid grid-cols-1 pt-16 sm:grid-cols-2 lg:grid-cols-4 gap-8">

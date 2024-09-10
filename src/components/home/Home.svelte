@@ -19,5 +19,5 @@
   </h1>
   <h1 class="text-8xl text-white font-bold mb-4 pt-6">With Plants</h1>
 
-  <Button className="mt-6" on:click={handleClick}>Shop NowSS</Button>
+  <Button className="mt-6" on:click={handleClick}>Shop Now</Button>
 </main>
