@@ -1,6 +1,7 @@
 <script>
   import Card from "../components/card/Card.svelte";
   import FeaturedProducts from "../components/featured Products/Featured Products.svelte";
+  import Help from "../components/help/Help.svelte";
 import Home from "../components/home/Home.svelte";
   import HomeChild from "../components/HomeChild.svelte";
 import Navbar from "../components/Navbar/Navbar.svelte";
@@ -14,11 +15,14 @@ import Navbar from "../components/Navbar/Navbar.svelte";
   <section class="">
     <HomeChild/>
   </section>
-  <section class="h-[400px]  ">
+  <section >
     <Card/>
   </section>
-  <section class="h-[200px] ">
+  <section >
     <FeaturedProducts/>
+  </section>
+  <section >
+    <Help/>
   </section>
     
 
