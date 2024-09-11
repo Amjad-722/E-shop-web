@@ -26,17 +26,17 @@
 
   <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-6 gap-4">
     {#each cards as card}
-      <div class="h-[300px] flex flex-col items-center space-y-4 p-12 rounded-lg shadow-sm">
+      <div class="flex flex-col items-center space-y-4 p-8 md:p-10 lg:p-12 rounded-lg shadow-sm">
         <!-- Image with hover effect -->
         <div class="flex-shrink-0">
-          <div class="relative h-72 w-72 overflow-hidden rounded-full">
+          <div class="relative w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 overflow-hidden rounded-full">
             <img src={card.image} alt="Card Image" class="h-full w-full object-cover transition-transform duration-300 ease-in-out hover:scale-110" />
           </div>
         </div>
-      
+        
         <!-- Button with arrow -->
         <div>
-          <button class=" text-black py-2 px-4 flex items-center transition-colors">
+          <button class="text-black py-2 px-4 flex items-center transition-colors">
             {card.buttonText}
             <FontAwesomeIcon icon={faArrowRight} class="ml-2" />
           </button>
