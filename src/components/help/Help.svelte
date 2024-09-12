@@ -30,7 +30,7 @@
   </script>
   
   <section
-    class="min-h-screen flex flex-row lg:flex-row items-center justify-center gap-8 lg:gap-16 mt-10"
+    class="h-dvh flex flex-row lg:flex-row items-center justify-center gap-8 lg:gap-16 "
   >
     <div class="flex flex-row gap-12">
       <div class="flex flex-row pl-2">
@@ -41,6 +41,8 @@
             class="w-[250px] h-[350px] sm:w-[300px] sm:h-[600px] md:w-[350px] md:h-[700px] lg:w-[450px] lg:h-[700px] object-cover"
           />
         {/each}
+
+        
       </div>
   
      <div>
@@ -53,27 +55,28 @@
             </p>
       
             <h3 class="text-lg pt-10 sm:text-xl font-medium">{subheading}</h3>
+            <img class="h-24 w-24 pt-8" src="https://websitedemos.net/plant-shop-04/wp-content/uploads/sites/160/2018/01/pic55-free-img.png" alt="">
           </div>
           
           <!-- Social Media Icons -->
-          <div class="flex space-x-4 pt-4 mt-12">
+          <div class="flex space-x-4 mt-12">
             <!-- Facebook Icon -->
-            <a href="https://www.facebook.com" target="_blank" class="text-blue-600">
-              <FontAwesomeIcon icon={faFacebook} class="fa-2x" />
+            <a href="https://www.facebook.com" target="_blank" class="text-green-700 rounded-full hover:bg-gray-400 ">
+              <FontAwesomeIcon  icon={faFacebook} class=" fa-2x " />
             </a>
             
             <!-- Twitter Icon -->
-            <a href="https://www.twitter.com" target="_blank" class="text-blue-400">
+            <a href="https://www.twitter.com" target="_blank" class="text-green-700 rounded-full hover:bg-gray-400 ">
               <FontAwesomeIcon icon={faTwitter} class="fa-2x" />
             </a>
       
             <!-- YouTube Icon -->
-            <a href="https://www.youtube.com" target="_blank" class="text-red-600">
+            <a href="https://www.youtube.com" target="_blank" class="ttext-green-700 rounded-full hover:bg-gray-400 ">
               <FontAwesomeIcon icon={faYoutube} class="fa-2x" />
             </a>
       
             <!-- Instagram Icon -->
-            <a href="https://www.instagram.com" target="_blank" class="text-pink-600">
+            <a href="https://www.instagram.com" target="_blank" class="text-green-700 rounded-full hover:bg-gray-400 ">
               <FontAwesomeIcon icon={faInstagram} class="fa-2x" />
             </a>
           </div>

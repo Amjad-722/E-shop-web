@@ -62,7 +62,7 @@
       
             <!-- Dropdown menu -->
             <div
-              class="absolute hidden group-hover:block bg-white shadow-md rounded-lg mt-2 w-40 z-10"
+              class="absolute hidden group-hover:block bg-white shadow-md rounded-lg w-40 z-10"
             >
               <!-- Plants Categories -->
               <a
