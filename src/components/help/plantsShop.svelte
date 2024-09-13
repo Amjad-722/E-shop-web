@@ -39,6 +39,12 @@
       </div>
     </div>
   </div>
+  <div class="flex  flex-col items-center">
+    <h1 class="font-extrabold text-5xl py-10  text-center">Buy Online Now & Get 10% Off!</h1>
+    <p class="text-gray-500 pb-10" >Curae quia enim aute, consequatur, eius quaerat excepteur fames pharetra.</p>
+    <Button class="mt-6 px-4" on:click={handleClick}>Available Now</Button>
+  </div>
+
   
   
   
