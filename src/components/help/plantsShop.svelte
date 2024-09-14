@@ -29,7 +29,7 @@
 
 <div>
   <!-- Responsive Flex Layout for Background Sections -->
-  <div class="flex flex-col lg:flex-row justify-around pb-8 px-6 lg:px-10 items-center align-center">
+  <div class="flex flex-col lg:flex-row justify-around py-16 px-6 lg:px-10 items-center align-center">
     {#each sections as section}
       <!-- Background Section -->
       <div class="relative bg-cover bg-center flex py-4 justify-center flex-col text-left h-80 w-full lg:w-1/2 flex-shrink-0 mb-6 lg:mb-0"
@@ -50,7 +50,7 @@
 </div>
 
 <!-- Centered Call-to-Action Section -->
-<div class="flex flex-col items-center text-center px-4 lg:px-0">
+<div class="flex flex-col items-center py-16 text-center px-4 pb-10 lg:px-0">
   <h1 class="font-extrabold text-3xl lg:text-5xl py-6 lg:py-10">{callToAction.title}</h1>
   <p class="text-gray-500 text-base lg:text-lg pb-6 lg:pb-10">
     {callToAction.description}
