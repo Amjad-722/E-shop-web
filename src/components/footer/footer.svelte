@@ -7,7 +7,7 @@
 <div class="h-vh py-20 px-10">
   <div class="flex flex-row justify-around">
     <div>
-      <h1>Adress</h1>
+      <h1 class="font-bold text-3xl">Adress</h1>
 
       <p>ABD ,233 ......</p>
     </div>
@@ -28,7 +28,7 @@
               <FontAwesomeIcon icon={faInstagram} class="fa-2x" />
             </a>
           </div>
-    <h3> Call Us</h3>
+    <h3 > Call Us</h3>
     <p>91........</p>
     </div>
     <div>
