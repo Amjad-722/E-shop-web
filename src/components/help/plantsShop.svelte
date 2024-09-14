@@ -42,7 +42,8 @@
         <div class="relative z-10 pl-6 lg:pl-16">
           <h1 class="font-bold text-xl lg:text-2xl py-2 text-white">{section.title}</h1>
           <p class="text-white pb-2">{section.description}</p>
-          <Button class="mt-6 px-4" on:click={section.onClick}>{section.buttonText}</Button>
+          <Button class="mt-6 px-4 text-black
+          " on:click={section.onClick}>{section.buttonText}</Button>
         </div>
       </div>
     {/each}
