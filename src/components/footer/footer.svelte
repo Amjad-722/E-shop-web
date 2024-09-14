@@ -51,11 +51,11 @@
           <FontAwesomeIcon icon={faInstagram} class="fa-2x" />
         </a>
       </div>
-      <h3 class="font-bold text-2xl">Call Us</h3>
+      <h3 class="font-bold text-xl">Call Us</h3>
       <p>91........</p>
     </div>
     <div>
-      <h1 class="font-bold text-3xl" >Email</h1>
+      <h1 class="font-bold text-xl" >Email</h1>
 
       <p></p>
       examlple.@gmail
