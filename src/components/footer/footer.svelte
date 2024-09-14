@@ -7,9 +7,9 @@
     } from "@fortawesome/free-brands-svg-icons";
     import { FontAwesomeIcon } from "@fortawesome/svelte-fontawesome";
   
-    export let address = "ABD ,233 ......";
-    export let phone = "91........";
-    export let email = "example@gmail.com";
+    export let address = "nagar colony Konodas Gilgit, Pakistan";
+    export let phone = "0310-9305472";
+    export let email = "aliamjadnagari@gmail.com";
     export let description = "Lorem ipsum dolor sit amet, consectetur adipiscing luctus nec ullamcorper mattis, pulvinar dapibus leo.";
     
     export let socialLinks = [
