@@ -6,6 +6,7 @@
 import Home from "../components/home/Home.svelte";
   import HomeChild from "../components/HomeChild.svelte";
 import Navbar from "../components/Navbar/Navbar.svelte";
+  import Testimonial from "../components/testimonial/testimonial.svelte";
 
 </script>
 <main>
@@ -25,6 +26,9 @@ import Navbar from "../components/Navbar/Navbar.svelte";
   <section >
     <Help/>
     <PlantsShop/>
+  </section>
+  <section>
+    <Testimonial/>
   </section>
     
 

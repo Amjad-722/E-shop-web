@@ -50,7 +50,7 @@
 </div>
 
 <!-- Centered Call-to-Action Section -->
-<div class="flex flex-col items-center text-center px-4 lg:px-0">
+<div class="flex flex-col items-center text-center px-4 pb-10 lg:px-0">
   <h1 class="font-extrabold text-3xl lg:text-5xl py-6 lg:py-10">{callToAction.title}</h1>
   <p class="text-gray-500 text-base lg:text-lg pb-6 lg:pb-10">
     {callToAction.description}
