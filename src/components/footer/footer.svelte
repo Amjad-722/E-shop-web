@@ -1,0 +1,44 @@
+<script>
+     import { faFacebook, faTwitter, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
+     import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
+
+</script>
+
+<div class="h-vh py-20 px-10">
+  <div class="flex flex-row justify-around">
+    <div>
+      <h1>Adress</h1>
+
+      <p>ABD ,233 ......</p>
+    </div>
+    <div class="flex flex-col gap-4 justify-center items-center">
+        <h1 class="font-extrabold text-5xl">Get In Touch</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        <div class="flex justify-center lg:justify-start space-x-4 mt-8">
+            <a href="https://www.facebook.com" target="_blank" class="text-green-700 hover:bg-gray-400 rounded-full">
+              <FontAwesomeIcon icon={faFacebook} class="fa-2x" />
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="text-green-700 hover:bg-gray-400 rounded-full">
+              <FontAwesomeIcon icon={faTwitter} class="fa-2x" />
+            </a>
+            <a href="https://www.youtube.com" target="_blank" class="text-green-700 hover:bg-gray-400 rounded-full">
+              <FontAwesomeIcon icon={faYoutube} class="fa-2x" />
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="text-green-700 hover:bg-gray-400 rounded-full">
+              <FontAwesomeIcon icon={faInstagram} class="fa-2x" />
+            </a>
+          </div>
+    <h3> Call Us</h3>
+    <p>91........</p>
+    </div>
+    <div>
+      <h1>Email</h1>
+
+      <p></p>
+      examlple.@gmail
+    </div>
+  </div>
+</div>
+<div class="h-[100px] flex justify-center items-center bg-black text-white" >
+    <p class="text-center text-gray-500">© 2023. All rights reserved.</p>
+</div>

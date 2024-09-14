@@ -1,6 +1,7 @@
 <script>
   import Card from "../components/card/Card.svelte";
   import FeaturedProducts from "../components/featured Products/Featured Products.svelte";
+  import Footer from "../components/footer/footer.svelte";
   import Help from "../components/help/Help.svelte";
   import PlantsShop from "../components/help/plantsShop.svelte";
 import Home from "../components/home/Home.svelte";
@@ -30,8 +31,9 @@ import Navbar from "../components/Navbar/Navbar.svelte";
   <section>
     <Testimonial/>
   </section>
-    
-
+<section>
+  <Footer/>
+</section>
   
   
   
