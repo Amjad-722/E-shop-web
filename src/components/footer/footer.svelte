@@ -11,7 +11,7 @@
 <div class="h-lv py-20   px-10">
   <div class="flex flex-row justify-around">
     <div>
-      <h1 class="font-bold text-3xl">Address</h1>
+      <h1 class="font-bold text-xl">Address</h1>
 
       <p>ABD ,233 ......</p>
     </div>
