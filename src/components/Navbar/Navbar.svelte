@@ -38,12 +38,12 @@
             >Home</a
           >
       
-          <!-- Shop link with dropdown and down arrow -->
+         
           <div class="relative group">
             <a
               class="my-1 text-lg text-white font-medium hover:text-indigo-500 md:mx-4 md:my-0 cursor-pointer flex items-center"
               href="#">Shop
-              <!-- Down Arrow Icon -->
+            
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-4 w-4 ml-1"
@@ -60,29 +60,29 @@
               </svg>
             </a>
       
-            <!-- Dropdown menu -->
+         
             <div
-              class="absolute hidden group-hover:block bg-white shadow-md rounded-lg w-40 z-10"
+              class="absolute hidden group-hover:block bg-green-600 shadow-md rounded-lg w-40 z-10"
             >
-              <!-- Plants Categories -->
+             
               <a
                 href="#"
-                class="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white rounded-t-lg"
+                class="block px-4 py-2 text-white hover:bg-white hover:text-green-600 rounded-t-lg"
                 >Cactus</a
               >
               <a
                 href="#"
-                class="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white"
+                class="block px-4 py-2 text-white hover:bg-white hover:text-white"
                 >Succulents</a
               >
               <a
                 href="#"
-                class="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white"
+                class="block px-4 py-2 text-white hover:bg-white hover:text-white"
                 >Flowering Plants</a
               >
               <a
                 href="#"
-                class="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white rounded-b-lg"
+                class="block px-4 py-2 text-white hover:bg-white hover:text-white rounded-b-lg"
                 >Tropical Plants</a
               >
             </div>
