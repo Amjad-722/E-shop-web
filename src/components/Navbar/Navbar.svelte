@@ -72,17 +72,17 @@
               >
               <a
                 href="#"
-                class="block px-4 py-2 text-white hover:bg-white hover:text-white"
+                class="block px-4 py-2 text-white hover:bg-white hover:text-green-600 "
                 >Succulents</a
               >
               <a
                 href="#"
-                class="block px-4 py-2 text-white hover:bg-white hover:text-white"
+                class="block px-4 py-2 text-white hover:bg-white hover:text-green-600 "
                 >Flowering Plants</a
               >
               <a
                 href="#"
-                class="block px-4 py-2 text-white hover:bg-white hover:text-white rounded-b-lg"
+                class="block px-4 py-2 text-white hover:bg-white hover:text-green-600 rounded-b-lg"
                 >Tropical Plants</a
               >
             </div>
