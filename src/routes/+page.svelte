@@ -11,7 +11,7 @@ import Navbar from "../components/Navbar/Navbar.svelte";
 
 </script>
 <main>
-  <section class="h-screen max-h-full bg-cover bg-transparent bg-center" style="background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230613/pngtree-some-green-plants-and-leaves-against-a-dark-background-image_2899643.jpg');">
+  <section class="h-screen max-h-full bg-cover    bg-center" style="background-image: url('https://img1.wallspic.com/previews/5/6/3/9/99365/99365-palm_tree-tree-green-vegetation-darkness-x750.jpg');">
     <Navbar />
     <Home/>
    
