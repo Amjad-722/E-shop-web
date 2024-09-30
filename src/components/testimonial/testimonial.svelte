@@ -42,7 +42,7 @@
     </div>
   
    
-    <div class="relative grid grid-cols-1 md:grid-cols-2 gap-8 px-12 z-10 justify-items-center">
+    <div class="relative grid grid-cols-1 md:grid-cols-2 gap-8 px-12 z-10 max-w-7xl mx-auto">
       {#each testimonials as testimonial}
         <div
           class="border-2 border-gray-300 hover:border-blue-500 transition hover:translate-x-3 duration-300 p-6 rounded-md shadow-md bg-white bg-opacity-80  w-full"
