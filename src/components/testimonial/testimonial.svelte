@@ -31,7 +31,7 @@
  
   <main class="h-dvh mt-16 relative">
     
-    <div class="absolute inset-0 bg-cover bg-fixed bg-center opacity-50" style="background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230613/pngtree-some-green-plants-and-leaves-against-a-dark-background-image_2899643.jpg');"></div>
+    <div class="absolute inset-0 bg-cover bg-fixed bg-center opacity-90" style="background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230613/pngtree-some-green-plants-and-leaves-against-a-dark-background-image_2899643.jpg');"></div>
   
     <div class="absolute inset-0 bg-white bg-opacity-70"></div>
   
